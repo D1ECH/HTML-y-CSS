@@ -1,0 +1,93 @@
+.pr-programme {
+	border-collapse: collapse;
+	border: 3px solid black;
+}
+
+th {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+	border: 3px solid black;
+	border-collapse: collapse;
+	color: #230a99;
+	text-align: center;
+}
+
+tbody th{
+	background-color: #e7dfec;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 18px;
+	padding-right: 17px;
+
+}
+
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;	
+	padding: 15px;
+
+}
+
+thead th{
+	font-size: 32px;
+	background-color: white;
+	padding: 16px;
+}
+
+tr td:first-child {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+	border-collapse: collapse;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	background-color: white;
+}
+
+td.Optativa {
+	background-color: #fdfc8d;
+}
+
+td.SI2 {
+	background-color: #fceadb;
+}
+
+td.ADB {
+	background-color: #ceffcd;
+}
+
+td.Mencion {
+	background-color: #e7dfec;
+}
+
+td.SII {
+	background-color: #e781d0;
+}
+
+
+
+td.Optativa-b {
+	background-color: #fdfc8d;
+	font-weight: bold;
+}
+
+td.SI2-b {
+	background-color: #fceadb;
+	font-weight: bold;
+}
+
+td.ADB-b {
+	background-color: #ceffcd;
+	font-weight: bold;
+}
+
+td.Mencion-b {
+	background-color: #e7dfec;
+	font-weight: bold;
+}
+
+td.SII-b {
+	background-color: red;
+	font-weight: bold;
+}
